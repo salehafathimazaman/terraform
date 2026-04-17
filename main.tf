@@ -19,7 +19,7 @@ resource "azurerm_resource_group" "sfz_rg" {
   name     = var.resource_group_name
   location = "westus2"
   tags = {
-    Environment = "Terraform Getting Started"
+    Environment = "Devlopment and learning HCP"
     Team = "DevOps"
   }
 }
