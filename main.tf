@@ -19,7 +19,7 @@ resource "azurerm_resource_group" "sfz_rg" {
   name     = var.resource_group_name
   location = "westus2"
   tags = {
-    Environment = "Devlopment and learning HCP try 2"
+    Environment = "Devlopment and learning HCP and hopelyy it will work now"
     Team = "DevOps"
   }
 }
